@@ -53,3 +53,24 @@
 
 
 // console.log("2" === 2);   //It doesnt convert it into number like == does
+
+
+
+
+
+
+
+// let name = "1223"
+
+// console.log(typeof name);
+
+// let valueInNumber = Number(name)
+
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
+
+
+
+
+console.log(typeof null);   //it gives null
+console.log(typeof undefined);  //it gives undefined
