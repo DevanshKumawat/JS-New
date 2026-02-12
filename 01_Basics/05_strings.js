@@ -6,7 +6,7 @@ const paperCount = 50
 // console.log(name + paperCount);
 
 
-// This is a good method but we use a defferent method which use "Backticks"
+// This is a good method but we use a different method which use "Backticks"
 
 // console.log(`My name is ${name} and my papercount is ${paperCount}`);
 
@@ -24,7 +24,7 @@ const newName = new String('DevanshKumawat') //check in Inspect
 
 
 const newString = newName.substring(0, 7) //to divide a string into a substring the 0 is the start value and the 7 is the end value into which the string is divided 
-// ----- IMPORTANT ---- The end value is not included into the substing 
+// ----- IMPORTANT ---- The end value is not included into the substring 
 // console.log(newString);
 
 
@@ -33,7 +33,7 @@ const anotherString = newName.slice(-14,7)  //it is similar to substring but it 
 // console.log(anotherString);
 
 
-//TRIM
+//TRIM :- Remove any extra spaces around it
 const newStringOne = "    Devansh    "
 // console.log(newStringOne);
 // console.log(newStringOne.trim());
