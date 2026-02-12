@@ -21,11 +21,22 @@ const JsUser = {
 
 
 
-JsUser.email = "devansh@google.com"
-Object.freeze(JsUser)
+// Object.freeze(JsUser)
+// JsUser.email = "devansh@google.com"
 
-JsUser.greetings = function(){
+
+// console.log(JsUser);
+
+
+JsUser.greeting = function(){
     console.log("Hello JS Users")
 }
 
-console.log(JsUser.greetings());
+
+JsUser.greetingTwo = function(){
+    console.log(`Hello JS User, ${this.name}`);
+    
+}
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
+

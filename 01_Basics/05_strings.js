@@ -47,3 +47,5 @@ const url = "https://devanshkumawat.com/devansh%50kumawat"
 
 
 //SPLIT :- Use to split a string different parts and convert it into an array
+const par = ("The red fox jumps over the sky")
+console.log(par.split(" "));
