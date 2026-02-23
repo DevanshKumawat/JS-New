@@ -37,6 +37,19 @@ JsUser.greetingTwo = function(){
     console.log(`Hello JS User ${this.name}`);
     
 }
-console.log(JsUser.greeting());
-console.log(JsUser.greetingTwo());
+// console.log(JsUser.greeting());
+// console.log(JsUser.greetingTwo());
 
+
+
+const course = {
+    courseName: "js in hindi",
+    price: "999",
+    courseInstructor: "devansh"
+}
+
+// console.log(course.courseInstructor);
+
+const {courseInstructor: instructor} = course
+
+// console.log(instructor);
